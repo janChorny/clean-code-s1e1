@@ -17,7 +17,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
 	  text-align: center;
@@ -38,11 +38,11 @@
     display: flex;
 }
 .main__list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .main__item, .main__header {
-    list-style:none;
+    list-style: none;
 }
 .main__input,button{
     outline:none;
@@ -136,14 +136,14 @@ button.delete img:hover {
 
 /* Edit Task */
 .main__list li input[type="text"] {
-    display:none
+    display: none
 }
 
 .main__list li.edit-mode input[type="text"] {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .main__list li.edit-mode .task {
-    display:none;
+    display: none;
 }
