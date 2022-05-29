@@ -41,10 +41,12 @@
     margin: 0;
     padding: 0px;
 }
-.main__item, .main__header {
+.main__item, 
+.main__header {
     list-style: none;
 }
-.main__input,button{
+.main__input,
+button {
     outline:none;
 }
 button {
