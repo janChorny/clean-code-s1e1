@@ -88,7 +88,7 @@ button:hover {
 }
 
 /* New Task */
-.main__header:nth-child(2) {
+.main__header:nth-child(1) {
   display: block;
   margin: 20px 0;
 } 
