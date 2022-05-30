@@ -71,7 +71,7 @@ button:hover {
   margin: 0;
   text-transform: uppercase;
 }
-.main__input--text {
+input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -109,10 +109,10 @@ li {
   vertical-align: middle;
 }
 
-.main__item > .main__input--checkbox {
+li > input[type="checkbox"] {
   margin: 0 10px;
 }
-.main__item > .task {
+li > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
