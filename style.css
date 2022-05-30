@@ -16,7 +16,6 @@
 .header__inf {
   font-family: fantasy, cursive;
 }
-
 @media (max-width: 768px) {
 
   .header {
@@ -61,6 +60,7 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .main__header {
   color: #333;
@@ -108,7 +108,6 @@ li {
 .main__item > * {
   vertical-align: middle;
 }
-
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
@@ -140,12 +139,10 @@ button.delete > *:hover {
 .main__list li input[type="text"] {
   display: none;
 }
-
 .main__list li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
-
 .main__list li.edit-mode .task {
   display: none;
 }
