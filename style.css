@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.wrapper {
+.main__wrapper {
   display: flex;
 }
 .main__list {
