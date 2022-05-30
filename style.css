@@ -45,7 +45,7 @@
 .main__header {
   list-style: none;
 }
-.main__input,
+input,
 button {
   outline:none;
 }
@@ -83,7 +83,7 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.main__input--text:focus {
+input[type="text"]:focus {
   color: #333;
 }
 
@@ -121,12 +121,12 @@ li > .task {
 .main__item > .main__input--text {
   width: 226px;
 }
-button.delete img {
+button.delete > * {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+button.delete > *:hover {
   transform: rotateZ(0);
 }
 
