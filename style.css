@@ -130,7 +130,7 @@ button.delete > *:hover {
 }
 
 /* Completed */
-.main__list#completed .task {
+.main__list#completed label {
   text-decoration: line-through;
   color: #888;
 }
